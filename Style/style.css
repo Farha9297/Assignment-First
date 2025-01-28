@@ -5,10 +5,11 @@
     font-style: normal;
     background-color: rgb(245, 245, 245);
   }
+  button:hover{background-color: rgb(211, 126, 211);}
+  .card-glow:hover{background-color: rgb(189, 210, 167);}
 
 
-* { margin: 0;
-padding: 0;}
+
 .display{ display: flex;}
 /*header section*/
 #navid {width: 1280px;
@@ -165,25 +166,31 @@ text-align: center;
 border-radius: 8px;
 border: none;
 padding: 10px;}
-.para-two{background-image: url(../assets/quote-bg.png);
-background-position: 160px 50px;
+.para-two{width: 1280px;
+    height: 240px;
+    margin: 40px 160px;
+padding: 40px 30px;
+border-radius: 24px;
+background: rgb(255, 255, 255);
+box-shadow: 4px 4px 16px rgba(14, 14, 14, 0.15);
+}
+.second-para{ width: 1000px;
+height: 120px;
+padding-top: 15px;
+margin-bottom: 10px;
+background-image: url(../assets/quote-bg.png);
 background-repeat: no-repeat;
-padding: 40px 20px;}
-.second-para{ width: 1280px;
-height: 70px;
-margin: 20px 160px;}
-.yunus{width:1280px;
+background-position: top left;}
+.yunus{width:1000px;
 height:24px;
 color: rgba(14, 14, 14, 0.8);
 font-size: 20px;
 font-weight: 600;
 line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin: 0 160px;}
-.small-line{width:1280px;
+letter-spacing: 0%;}
+.small-line{width:1000px;
 height:24px;
-margin: 0 160px;}
+margin-top: 5px;}
 /*section three*/
 table{ width: 1280px;
 height:300px;
@@ -224,7 +231,7 @@ margin: 0px 12px;}
 .ques{padding-left: 5px;}
 /*section four*/
 .largecard-one, .largecard-two, .largecard-three{ width: 1280px;
-    height: 350px;
+    height: 420px;
     align-items: center;
     justify-content: center;
     padding:40px;
@@ -250,7 +257,8 @@ text-align: left;
     border-radius: 24px;}
     
     .text{ width: 744px;
-    height: 300px;}
+    height: 400px;}
+    .large-title{margin-bottom: 0px;}
     .card-logo{margin-top: 12px;}
     .span-div{margin-top: 12px;}
     .time-span{ margin-left: 4px;}
@@ -268,3 +276,126 @@ text-align: center;
 border-radius: 8px;
 border: none;
 margin-top: 20px;}
+/*donation section*/
+.donation{ width: 1280px;
+    height: 500px;
+    margin: 40px 360px;}
+.dontitle{ width: 1280px;
+    height:48px;
+padding: 0 200px;}
+.donpara{ width: 1000px;
+    height:48px;
+    text-align: center;}
+.donation-container{
+    width: 1200px;
+    height: 128px;
+    gap:25px;
+margin-top: 30px;}
+.donation-card-one:hover, .donation-card-two:hover, .donation-card-three:hover, .donation-card-four:hover{background-color: cadetblue;}
+.donation-card-one{width: 240px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0%;
+align-content: center;
+padding: 0px 30px;}
+.donation-card-two{width: 252px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0%;
+align-content: center;
+padding: 0px 30px;}
+.donation-card-three{width:243px;
+height: 128px;
+background-color: rgb(198, 228, 214);
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0%;
+align-content: center;
+padding: 0px 30px;}
+.donation-card-four{ width: 264px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0%;
+align-content: center;
+padding: 0px 30px;}
+.field{ width: 1032px;
+height: 64px;
+margin-top: 30px;
+margin-bottom: 50px;
+background: rgb(255, 255, 255);
+box-shadow: 2px 2px 8px rgba(14, 14, 14, 0.15);
+margin-left: 20px;}
+#input{width: 1032px;
+    height: 64px;
+color: rgba(14, 14, 14, 0.3);
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border: none;}
+.donate-butt{ width: 151px;
+height: 56px;
+text-align: center;
+border-radius: 8px;
+border: none;
+color: white;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+margin: 20px 440px;}
+
+
+
+
+
+/*footer style*/
+footer{border-top: 1px solid lightgray;
+background-color: white;}
+.foot{ flex-direction: column;
+    align-items: center;
+    justify-content: center;
+gap: 50px;
+margin: 0 400px;}
+.foot-title{ width: 222px;
+height: 38px;
+margin: 30px auto 0 auto;}
+.hr{ display: block;
+    margin: 0 auto;
+    width: 1122px;
+    border-style: inset;
+    border-width: 1px;
+color: lightgrey;}
+.foot-image-div{gap: 20px;
+margin-bottom: 40px;}
+.foot-fb{ width: 24px;
+height: 24px;}
+.foot-ins{ width: 24px;
+    height: 24px; }
+.foot-x{ width: 26px;
+    height: 26px;}
