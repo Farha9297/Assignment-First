@@ -16,7 +16,7 @@ padding: 0;}
     display: flex;
     align-items: center;
     justify-content: space-between;
-margin:40px 300px;}
+margin:40px 160px;}
 .title{ width: 222px;
 height : 38px;
 color: rgb(14, 14, 14);
@@ -99,6 +99,7 @@ margin:30px 160px;}
     .card-one, .card-two, .card-three, .card-four{width: 302px;
         height: 500px;
         flex-direction: column;
+        gap: 20px;
         padding: 40px 20px;
         margin: 2px;
         box-sizing: border-box;
@@ -125,3 +126,62 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;}
+/*section two*/
+.card-container-two{
+    height: 330px;
+    margin: 0px 160px;
+gap: 30px;}
+.card-1, .card-2, .card-3{
+    width: 400px;
+    height: 320px;
+    flex-direction: column;
+    gap: 15px;
+padding: 28px;
+box-sizing: border-box;
+border-radius: 16px;}
+.small-para{width: 342px;
+     height: 72px;}
+.blue{background: rgba(84, 144, 245, 0.2);}
+.olive{background: rgb(198, 228, 214);}
+.orange{background: rgb(247, 235, 207);}
+.blu{background-color:rgb(84, 144, 245);}
+.org{background-color: rgb(255, 194, 57);}
+.olv{background-color:rgb(9, 161, 92);}
+
+.para-section{ width: 1280px;
+height: 48px;
+margin: 40px 160px;}
+.cardtwo-img{ width: 62px;
+height: 62px;}
+.card-butt{width: 122px;
+height: 41px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+border: none;
+padding: 10px;}
+.para-two{background-image: url(../assets/quote-bg.png);
+background-position: 160px 50px;
+background-repeat: no-repeat;
+padding: 40px 20px;}
+.second-para{ width: 1280px;
+height: 70px;
+margin: 20px 160px;}
+.yunus{width:1280px;
+height:24px;
+color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 0 160px;}
+.small-line{width:1280px;
+height:24px;
+margin: 0 160px;}
+/*section three*/
+
