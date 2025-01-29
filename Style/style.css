@@ -7,6 +7,7 @@
   }
   button:hover{background-color: rgb(211, 126, 211);}
   .card-glow:hover{background-color: rgb(189, 210, 167);}
+  #buton:hover{background-color: rgb(211, 126, 211);}
 
 
 
@@ -68,7 +69,7 @@ letter-spacing: 0%;
 text-align: left;}
 .banner-butt{ width:270px;
 height:56px;
-margin-top: 30px;
+margin-top: 5px;
 border-radius: 8px;
 border: none;
 background: rgb(0, 106, 80);
@@ -207,13 +208,15 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 background: rgb(198, 228, 214);
 padding: 24px;}
 tr{width: 1168px;
-height: 24px;
+    height: 24px;
 color: rgb(14, 14, 14);
 font-size: 20px;
 font-weight: 600;
 line-height: 24px;
-letter-spacing: 0%;}
- th, td{border: 1px solid rgb(221, 221, 221);}
+letter-spacing: 0%;
+text-align: center;}
+th, td{border: 1px solid rgb(221, 221, 221);
+}
  select{ width: 70%;
     height: 44px;
     box-sizing: border-box;
@@ -227,8 +230,7 @@ border-radius: 4px;
     letter-spacing: 0%;
     padding: 0px 10px;
 margin: 0px 12px;}
-.margin{ padding-left: 12px;}
-.ques{padding-left: 5px;}
+.margin{text-align: center;}
 /*section four*/
 .largecard-one, .largecard-two, .largecard-three{ width: 1280px;
     height: 420px;
@@ -291,7 +293,10 @@ padding: 0 200px;}
     height: 128px;
     gap:25px;
 margin-top: 30px;}
-.donation-card-one:hover, .donation-card-two:hover, .donation-card-three:hover, .donation-card-four:hover{background-color: cadetblue;}
+.donation-card-one:hover{background-color: rgb(221, 88, 221);}
+.donation-card-two:hover{background-color: rgb(99, 99, 214);}
+.donation-card-three:hover {background-color: cadetblue;}
+.donation-card-four:hover{background-color: rgb(229, 114, 137);}
 .donation-card-one{width: 240px;
 height: 128px;
 box-sizing: border-box;
@@ -369,24 +374,69 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
 margin: 20px 440px;}
+/*extra section*/
+.extra{width: 1200px;
+height: 250px;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+margin: 50px 160px;
+padding: 100px 250px;}
+.substitle{ width:622px;
+height: 48px;
+color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;}
+.subspara{width: 622px;
+height: 48px;
+text-align: center;
+margin:16px 150px 16px 150px;}
+#email{ width:600px;
+height: 55px;
+border: none;
+border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+padding-left: 40px;
+}
+#buton{width: 150px;
+height: 56px;
+border: none;
+border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align:center;
+}
+.subinput{margin: 40px 100px;}
 
 
 
 
 
 /*footer style*/
-footer{border-top: 1px solid lightgray;
+footer{ 
+    border-top: 1px solid lightgray;
 background-color: white;}
 .foot{ flex-direction: column;
     align-items: center;
     justify-content: center;
 gap: 50px;
-margin: 0 400px;}
+margin: 0 850px;}
 .foot-title{ width: 222px;
 height: 38px;
-margin: 30px auto 0 auto;}
+margin: 30px 200px 0 200px;}
 .hr{ display: block;
-    margin: 0 auto;
+    margin: 0 300px;
     width: 1122px;
     border-style: inset;
     border-width: 1px;
